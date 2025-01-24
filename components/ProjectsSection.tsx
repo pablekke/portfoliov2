@@ -5,8 +5,8 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
 import { ExternalLink } from "lucide-react";
-import imageCart from "@/public/images/cart.webp";
-import imageLanding from "@/public/images/landing.webp";
+import imageCart from "@/public/assets/cart.webp";
+import imageLanding from "@/public/assets/landing.webp";
 
 const projects = [
   {
