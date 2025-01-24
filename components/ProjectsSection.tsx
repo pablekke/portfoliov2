@@ -5,8 +5,6 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
 import { ExternalLink } from "lucide-react";
-import imageCart from "@/public/assets/cart.webp";
-import imageLanding from "@/public/assets/landing.webp";
 
 const projects = [
   {
@@ -15,7 +13,7 @@ const projects = [
       "Sistema completo de restaurante con autenticación de usuarios, carrito de compras y pasarela de pagos. Desarrollado con React y tecnologías modernas.",
     link: "https://larotondacart.netlify.app/",
     features: ["Login/Registro", "Pasarela de Pago", "Carrito de Compras"],
-    image: imageCart,
+    image: "/assets/cart.webp",
   },
   {
     title: "La Rotonda - Landing",
@@ -23,7 +21,7 @@ const projects = [
       "Versión landing page del restaurante, enfocada en la presentación del menú y la experiencia del usuario.",
     link: "https://larotonda.netlify.app/",
     features: ["Diseño Responsivo", "Menú Interactivo", "Optimización SEO"],
-    image: imageLanding,
+    image: '/assets/landing.webp',
   },
 ];
 
