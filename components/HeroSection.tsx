@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import image from "@/public/assets/forcv11.jpg"
+import image from "../public/assets/forcv11.jpg"
 
 export default function HeroSection() {
   return (
