@@ -9,8 +9,8 @@ const references = [
     phone: "+598 92 435 399",
   },
   {
-    name: "Pablo Geymonay",
-    position: "Profesor ORT",
+    name: "Pablo Geymonat",
+    position: "Profesor en ORT",
     phone: "+598 91 634 555",
   },
   {
